@@ -1,0 +1,10 @@
+<?xml version="1.0"?>>
+<hibernate-mapping package="com.ecommerce">
+    <class name="ScreenSizes" table="screensizes">
+        <id name="SCREENID" type="long" column="ID">
+            <generator class="identity"/>
+        </id>
+        <property name="size" type="string" column="SIZE"/>
+    </class>
+</hibernate-mapping>
+

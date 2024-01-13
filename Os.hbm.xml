@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping >
+<hibernate-mapping package="com.ecommerce">
+    <class name="OS" table="os">
+        <id name="OSID" type="long" column="ID">
+            <generator class="identity"/>
+        </id>
+        <property name="name" type="string" column="NAME"/>
+    </class>
+</hibernate-mapping>
+
